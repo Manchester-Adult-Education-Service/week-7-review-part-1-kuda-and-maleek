@@ -116,6 +116,14 @@ print("-------------------------------------------\n"
 # You are an adult!
 #
 # Write your code below:
+if userage >= 61 and userage <= 79:
+    print("You are a Boomer.")
+elif userage >= 45 and userage <= 60:
+    print("You are Gen X")
+elif userage >= 29 and userage <= 44:
+    print("You are a millenial")
+else:
+    print("You are not a Boomer,Millenial or Gen X")
 
 
 # -------------------------------------------
