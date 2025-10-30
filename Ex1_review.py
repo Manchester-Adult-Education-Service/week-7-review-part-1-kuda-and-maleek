@@ -42,7 +42,7 @@ print("-------------------------------------------\n"
 #
 # Write your code below:
 username = input("What is your name? ")
-userage= input("What is your age? ")
+userage= int(input("What is your age? "))
 print(f"Hello {username} you are {userage} years old")
 
 # -------------------------------------------
@@ -80,6 +80,10 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
+nextyearage = (userage+1)
+print(f"Next Year, you will be {nextyearage} years old")
+decades = (userage/10)
+print (f"That means you are about {decades} decades old!")
 
 
 # -------------------------------------------
