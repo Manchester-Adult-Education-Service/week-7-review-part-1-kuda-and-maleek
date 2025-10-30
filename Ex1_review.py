@@ -41,7 +41,9 @@ print("-------------------------------------------\n"
 # Output: Hello Sam, you are 30 years old.
 #
 # Write your code below:
-
+username = input("What is your name? ")
+userage= input("What is your age? ")
+print(f"Hello {username} you are {userage} years old")
 
 # -------------------------------------------
 # SWAP COMPUTERS
