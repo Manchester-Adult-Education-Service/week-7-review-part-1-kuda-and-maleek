@@ -41,7 +41,9 @@ print("-------------------------------------------\n"
 # Output: Hello Sam, you are 30 years old.
 #
 # Write your code below:
-
+username = input("What is your name? ")
+userage= int(input("What is your age? "))
+print(f"Hello {username} you are {userage} years old")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -78,6 +80,10 @@ print("-------------------------------------------\n"
 # That means you are about 3.1 decades old.
 #
 # Write your code below:
+nextyearage = (userage+1)
+print(f"Next Year, you will be {nextyearage} years old")
+decades = (userage/10)
+print (f"That means you are about {decades} decades old!")
 
 
 # -------------------------------------------
@@ -110,6 +116,14 @@ print("-------------------------------------------\n"
 # You are an adult!
 #
 # Write your code below:
+if userage >= 61 and userage <= 79:
+    print("You are a Boomer.")
+elif userage >= 45 and userage <= 60:
+    print("You are Gen X")
+elif userage >= 29 and userage <= 44:
+    print("You are a millenial")
+else:
+    print("You are not a Boomer,Millenial or Gen X")
 
 
 # -------------------------------------------
@@ -142,7 +156,13 @@ print("-------------------------------------------\n"
 # You were born in the 21st century!
 #
 # Write your code below:
-
+year_of_birth = (2025 - userage)
+print(f"You were born in {year_of_birth}")
+if year_of_birth <= 2000:
+    print ("You were born in the 20th century!")
+else:
+    print ("You were born in the 21st century!")
+    
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -169,7 +189,7 @@ print("-------------------------------------------\n"
 #     Next year you will be <next_year_age>. That’s about <decades> decades old!"
 #
 # Write your code below:
-
+print(f"Hello {username}. You are {userage} years old, born in the year {year_of_birth}. Next year you will be {nextyearage}. That is {decades} decades old.")
 
 # -------------------------------------------
 # SWAP COMPUTERS
@@ -202,6 +222,9 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
+favnumber = int(input("Enter your favourite number: \n"))
+multiage = (userage * favnumber)
+print (f"Your lucky total is {multiage}")
 
 
 # -------------------------------------------
