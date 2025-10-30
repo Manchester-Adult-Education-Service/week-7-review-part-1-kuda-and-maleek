@@ -222,6 +222,9 @@ print("-------------------------------------------\n"
 # Your lucky total is 54!
 
 # Write your code below:
+favnumber = int(input("Enter your favourite number: \n"))
+multiage = (userage * favnumber)
+print (f"Your lucky total is {multiage}")
 
 
 # -------------------------------------------
